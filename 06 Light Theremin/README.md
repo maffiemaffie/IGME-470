@@ -148,9 +148,6 @@ void loop() {
 }
 ```
 
-And here's what it sounds like! \
-https://github.com/user-attachments/assets/b901295a-be9b-4d0b-90f3-ac6e718f4b9b
+And here's what it sounds like! 
 
-
-
-
+https://github.com/user-attachments/assets/293d2573-b5c8-4964-af39-aea95afebd33
