@@ -1,4 +1,4 @@
-# Mood Cue
+# Light Theremin
 
 This week I am making the Light Theremin!
 
