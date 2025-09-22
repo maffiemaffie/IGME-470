@@ -1,0 +1,7 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"PIEZO2",1," Piezo"
+"S4, S5, S6, S7",4," Pushbutton"
+"R5, R7",2,"10 kΩ Resistor"
+"R6",1,"1 MΩ Resistor"
+"R8",1,"220 Ω Resistor"
