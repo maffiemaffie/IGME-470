@@ -8,6 +8,24 @@ My plant wants nothing but release from this cruel world, and to accomplish this
 
 ![sketch of my idea featuring my plant with a heater and a sad face](media/sketch.png)
 
+## Circuit and Parts
+The completed circuit will look like this:  
+![circuit mockup in tinkercad](media/tinkercad.png)
+![circuit schematic](media/schematic.png)
+
+You'll need the following parts:  
+|Part|Quantity|
+|-|-|
+|Arduino Uno|1|
+|LED|6|
+|220 &ohm; Resistor|7|
+|2.2 k&ohm; Resistor|1|
+|Potentiometer|1|
+|Button|1|
+|LCD Screen|1|
+|Soil Moisture Sensor|1|
+
+
 ## Process
 I started by connecting the LCD, heater LEDs, and the moisture sensor.  
 ![initial hookup of all the components to make sure everything works](media/circuit-initial.png) 
