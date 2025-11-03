@@ -1,6 +1,8 @@
 # Depressed Plant
 Everyone makes a plant that waters itself, but what about one that does the opposite?
 
+[See it in action!](https://youtu.be/iVa_hGkkVOE)
+
 ![depressed plant](media/final.png)
 
 ## The Idea
