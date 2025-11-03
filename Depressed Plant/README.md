@@ -4,7 +4,7 @@ Everyone makes a plant that waters itself, but what about one that does the oppo
 ![depressed plant](media/final.png)
 
 ## The Idea
-My plant wants nothing but release from this cruel world, and to accomplish this, it's hacked into my heating! Every time I water it, it blasts the heat to try to dry itself out!
+My plant wants nothing but release from this cruel world, and to accomplish this, it's hacked into my heating! Every time I water it, it blasts the heat to try to dry itself out! It's up to me to keep my plant alive and well!
 
 ![sketch of my idea featuring my plant with a heater and a sad face](media/sketch.png)
 
