@@ -339,5 +339,5 @@ Heater on in the dark:
 Mad after I shut off heater:  
 ![plant is mad after shutting off heater](media/plant-mad.png)
 
-Watering:
+Watering:  
 ![plant is watered and frowns, then dries and smiles](media/watering.gif)
