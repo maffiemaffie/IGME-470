@@ -75,5 +75,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 441fabe4bb54645299303be4a6c985d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4658840917180527094}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 441fabe4bb54645299303be4a6c985d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4880330161463046600}
   m_SourcePrefab: {fileID: 100100000, guid: 441fabe4bb54645299303be4a6c985d2, type: 3}
+--- !u!1 &4869239964858535195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 441fabe4bb54645299303be4a6c985d2, type: 3}
+  m_PrefabInstance: {fileID: 5715747575568166986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4658840917180527094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869239964858535195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16b1e01c40854e519786f4f8807663f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainLocation: {x: 0, y: 0, z: 0}
+  EnterFrom: {x: 0, y: 0, z: 0}
+  ExitTo: {x: 0, y: 0, z: 0}
+  enter: 0
+  exit: 0
+--- !u!114 &-4880330161463046600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869239964858535195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be2c9cf4ca384403806e0c06810f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: STEAK

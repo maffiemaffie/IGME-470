@@ -1,5 +1,7 @@
-# Depressed Plant
+# Depressed Plant 🪴
 Everyone makes a plant that waters itself, but what about one that does the opposite?
+
+[See it in action!](https://youtu.be/iVa_hGkkVOE)
 
 ![depressed plant](media/final.png)
 
@@ -339,5 +341,5 @@ Heater on in the dark:
 Mad after I shut off heater:  
 ![plant is mad after shutting off heater](media/plant-mad.png)
 
-Watering:
+Watering:  
 ![plant is watered and frowns, then dries and smiles](media/watering.gif)
