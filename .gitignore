@@ -419,3 +419,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Blender backup files
+
+**/*.blend1

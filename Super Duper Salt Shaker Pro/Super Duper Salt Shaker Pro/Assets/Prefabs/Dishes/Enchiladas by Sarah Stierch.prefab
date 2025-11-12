@@ -75,5 +75,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 531209427fd0f4064bf6cd8bd9a8758f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3173721137712821065}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 531209427fd0f4064bf6cd8bd9a8758f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -76209695842215115}
   m_SourcePrefab: {fileID: 100100000, guid: 531209427fd0f4064bf6cd8bd9a8758f, type: 3}
+--- !u!1 &8568330981079860159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 531209427fd0f4064bf6cd8bd9a8758f, type: 3}
+  m_PrefabInstance: {fileID: 8802771939978411758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3173721137712821065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8568330981079860159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16b1e01c40854e519786f4f8807663f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainLocation: {x: 0, y: 0, z: 0}
+  EnterFrom: {x: 0, y: 0, z: 0}
+  ExitTo: {x: 0, y: 0, z: 0}
+  enter: 0
+  exit: 0
+--- !u!114 &-76209695842215115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8568330981079860159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be2c9cf4ca384403806e0c06810f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: ENCHILADAS
