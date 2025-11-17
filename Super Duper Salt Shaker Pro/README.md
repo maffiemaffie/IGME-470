@@ -1,5 +1,7 @@
 # Super Duper Salt Shaker PRO
 
+https://github.com/user-attachments/assets/77581143-478f-447b-b6cb-a4b1d90e9205
+
 Inspired by games like Papa's Pizzeria and Cooking Mama, I've created my own cooking game with a custom controller!
 
 In my project, YOU get to work at the last station in a restaurant kitchen! Customers want well salted dishes and it’s YOUR job to get it to them!
