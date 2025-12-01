@@ -33,7 +33,7 @@ I got started by modeling a spray paint can that I could use to contain my circu
 Meanwhile, I got started on the camera end. I intended to use an LED in the cap to track its position. The LED would change colors according to the cap pressure so that it would be visible even while not pressed. Unfortunately, all the background noise was confusing the tracking.  
 
 I couldn't manually adjust the exposure of my webcam, so my solution was to pop out the lenses of a pair of sunglasses and tape them over the camera!  
-![sunglasses lenses taped to my laptop](media/sunglasses.png)
+![sunglasses lenses taped to my laptop](media/sunglasses.png)  
 ![tracking test using the sunglasses](media/sunglasses-tracking.gif)  
 
 With the LED tracking working, I could move onto the cap pressure tracking.  
@@ -51,7 +51,7 @@ After making some adjustments to the can and drilling some holes in the cap, I'm
 Until this point, I've been using my Arduino Uno which is convenient, but huge. I rewired everything to fit on my mini breadboard using an Arduino Nano:  
 ![mini circuit](media/mini-circuit.png)  
 
-With that finished, I was finally able to use the can without having it attached to my laptop.
+With that finished, I was finally able to use the can without having it attached to my laptop.  
 ![moving can around on its own](media/can-final.gif)
 
 And with everything put together, digital graffiti is a reality!  
