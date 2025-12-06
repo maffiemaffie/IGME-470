@@ -1,6 +1,8 @@
 # Digital Graffiti
 Have you ever wanted to be a graffiti artist without the legal trouble? Now you can!
 
+https://github.com/user-attachments/assets/95b28d94-ca8a-4bd9-8cec-21787a068426
+
 ## The Idea
 Use a real spray paint can to draw graffiti in the digital world. 
 ![concept sketch of spraying spray paint on a laptop](media/sketch.png)  
