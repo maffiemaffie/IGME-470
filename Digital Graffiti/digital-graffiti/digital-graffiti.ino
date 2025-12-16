@@ -11,7 +11,7 @@ void setup() {
   pinMode(sensorPin, INPUT);
   pinMode(bluePin, OUTPUT);
   pinMode(greenPin, OUTPUT);
-  // Serial.begin(9600);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -31,7 +31,7 @@ void loop() {
     // calibrate sensor min and sensor max
     if (sensorValue > sensorMax) sensorMax = sensorValue;
     if (sensorValue < sensorMin) sensorMin = sensorValue;
-    // Serial.println(sensorValue);
+    Serial.println(sensorValue);
     return;
   }
 

@@ -1,0 +1,9 @@
+Amount;Part Type
+11;560Ω Resistor
+2;3641AH 7-Segment Display
+2;74HC595 Shift Register
+1;Arduino Uno
+2;Green LED
+2;Red LED
+2;Rotary Potentiometer
+2;HC-SR04 Ultrasonic Sensor
