@@ -9,6 +9,8 @@ public class RoundManager : MonoBehaviour
     [SerializeField]
     private GameObject[] dishes;
     [SerializeField]
+    private GameObject pizzaBox;
+    [SerializeField]
     private MoveCircle moveShaker;
     [SerializeField]
     private Shake shakeShaker;
@@ -32,6 +34,7 @@ public class RoundManager : MonoBehaviour
     public bool startCountdown = false;
 
     private GameObject currentDish;
+    private GameObject currentBox;
 
 
     private void OnValidate()
@@ -53,13 +56,23 @@ public class RoundManager : MonoBehaviour
     {
         GameObject dishToSpawn = PickRandomDish();
 
+        // setup dish
         currentDish = Instantiate(dishToSpawn, EnterFrom, Quaternion.identity);
 
         currentDish.GetComponent<DishEnterExit>().MainLocation = DishMainLocation;
         currentDish.GetComponent<DishEnterExit>().EnterFrom = EnterFrom;
         currentDish.GetComponent<DishEnterExit>().ExitTo = ExitTo;
 
+        // setup box
+        currentBox = Instantiate(pizzaBox, EnterFrom, Quaternion.identity);
+
+        currentBox.GetComponent<DishEnterExit>().MainLocation = DishMainLocation;
+        currentBox.GetComponent<DishEnterExit>().EnterFrom = EnterFrom;
+        currentBox.GetComponent<DishEnterExit>().ExitTo = ExitTo;
+
+        // enter both
         currentDish.GetComponent<DishEnterExit>().Enter();
+        currentBox.GetComponent<DishEnterExit>().Enter();
 
         nextOrderNameDisplay.text = currentDish.GetComponent<DishName>().Name;
         finalScore.SetNextDishName(currentDish.GetComponent<DishName>().Name);
@@ -83,6 +96,11 @@ public class RoundManager : MonoBehaviour
         if (currentDish)
         {
             currentDish.GetComponent<DishEnterExit>().Exit();
+        }
+
+        if (currentBox)
+        {
+            currentBox.GetComponent<DishEnterExit>().Exit();
         }
     }
 
@@ -129,10 +147,14 @@ public class RoundManager : MonoBehaviour
             yield return null;
         }
 
-        while (moveShaker.CircleProgress != null)
+        while (moveShaker.CircleProgress < 0.95)
         {
             yield return null;
         }
+
+        currentBox.GetComponent<PizzaBoxClose>().Close();
+
+        yield return new WaitForSeconds(1);
 
         RoundEvents.Instance.OnRevealScore();
     }

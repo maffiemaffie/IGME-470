@@ -23,20 +23,20 @@ public class DisplaySaltiness : MonoBehaviour
         if (saltiness > 0)
         {
             LowSalt.enabled = true;
-            SaltinessText.text = "LIGHT SALT";
+            SaltinessText.text = "LIGHT PARMESAN";
 
         }
 
         if (saltiness > 1)
         {
             MediumSalt.enabled = true;
-            SaltinessText.text = "MEDIUM SALT";
+            SaltinessText.text = "MEDIUM PARMESAN";
         }
 
         if (saltiness > 2)
         {
             HighSalt.enabled = true;
-            SaltinessText.text = "HEAVY SALT";
+            SaltinessText.text = "HEAVY PARMESAN";
         }
     }
 

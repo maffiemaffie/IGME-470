@@ -25,13 +25,9 @@ public class MoveCircle : MonoBehaviour
     {
         if (circling) return;
 
+        startingPosition = transform.position;
         circling = true;
         startedCirclingAt = Time.time;
-    }
-
-    private void Awake()
-    {
-        startingPosition = transform.position;
         circleCenter = transform.position + Vector3.left * Radius;
     }
 
