@@ -1,6 +1,8 @@
 # Meds Trackers
 I love taking my meds but I always forget to, and when I remember, I can't remember if I've already taken them
 
+https://github.com/user-attachments/assets/c1f51df4-f794-489c-b553-40015e09d7d1
+
 ## The Idea
 Use a custom holder that detects when your meds have been taken and alerts you when you forget.
 ![sketch of a medicine vial in a holder with LEDs](media/sketch.png) 
